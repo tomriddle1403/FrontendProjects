@@ -6,8 +6,7 @@ html, body {
 
 body {
     background-image: url('https://s3.amazonaws.com/codecademy-content/projects/junction/bg.jpg');
-    background-size: cover;
-    background-position: 70% 20%;
+    background-size:  100% 130%;
     background-repeat: no-repeat;
 }
 
