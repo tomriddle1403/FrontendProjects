@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Header */
+.header{
+    height: 125px;
+  
+}
+.header h1 {
+    line-height: 100px;
+}
+
+.nav-pills li {
+    border: solid 1px #d8192f;
+    border-radius: 5%;
+    margin: 40px 10px;
+  
+}
+.nav-pills li a {
+    color: #d8192f;
+    text-align: center;
+    width: 100px;
+    display: block;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:hover {
+    background-color: rgba(216, 25, 47, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+.section .btn:hover,
+.nav-pills>li>a:hover {
+    background-color: rgba(216, 25, 47, 1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    color: #fff;
+    border-color: rgba(216,25,47,.5);
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 500px;
+    padding-top: 7.5%;
+    background-image: url("https://s3.amazonaws.com/codecademy-content/projects/bestbite/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 40%;
+
+}
+.jumbotron h1{
+    color: white;
+    text-align: right;
+  
+}
+
+
+/* Banner */
+.banner, .supporting {
+    text-align: center;
+    padding-top: 40px;
+}
+.banner {
+    background-color:#36343f;
+    height:180px; 
+    color: #fff;
+}
+.banner a {
+    margin-top : 10px;
+    background: rgba(216,25,47,.5);
+    border-color: rgba(216,25,47,.5);
+    color: white;
+    width: 120px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+
+/*Page Header*/
+.page-header {
+    text-align: center;
+}
+.page-header h4 {
+    color: #d8192f;
+    margin-bottom: 10px;
+}
+.page-header ul {
+    list-style-type: none;
+}
+
+/*footer*/
+.footer{
+    height: 100px;
+    background-color: #eee;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footer a{
+    color: #d8192f;
+}
+/* Media Queries */
+@media (max-width: 680px) {
+    .header h1 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .nav {
+        float: none;
+        margin: 0 auto;
+    }
+    .banner {
+        height: 220px;
+    }
+
+    .nav-pills li:first-child a  {
+        margin-left: 0;
+    }
+}
